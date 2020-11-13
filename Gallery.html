@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="E:\SEM VII\AJL\AJL Project\Css\styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#picOne').fadeIn(1500).delay(1500).fadeOut(1500);
+    $('#picTwo').fadeIn(1500).delay(1500).fadeOut(1500);
+    $('#picThree').fadeIn(1500).delay(1500).fadeOut(1500);
+    $('#picFour').fadeIn(1000).delay(1500).fadeOut(1000);
+    $('#picFive').fadeIn(1000).delay(1500).fadeOut(1000);
+    $('#picSix').fadeIn(1000).delay(1500).fadeOut(1000);
+
+
+    $('#picOne').fadeIn(1500);
+    $('#picTwo').fadeIn(1500);
+    $('#picThree').fadeIn(1500);
+    $('#picFour').fadeIn(1000);
+    $('#picFive').fadeIn(1000);
+    $('#picSix').fadeIn(1000);
+
+  });
+
+  $(document).ready(function(){
+  $("#flip").click(function(){
+  $("#panel").slideDown("slow");
+  $("#panel").slideUp("slow");
+
+  });
+});
+
+
+
+  </script>
+
+</head>
+  <title>Gallery</title>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-3 fixed-top" >
+      <div class="container-fluid">
+          <h1 class="navbar-brand">
+          <img src="E:\SEM VII\AJL\AJL Project\images\logo_recipes.png" class="image-responsive-head">
+            <span class="head-nav" style="color: #7d5a5a">Recipes Star</span>
+      </h1>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navcol">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navcol">
+
+              <div class="navbar-nav ml-auto">
+                 <a class="nav-link" href="Home.html"><strong>Home</strong></a>
+                 <a class="nav-link" href="Gallery.html" ><strong>Gallery</strong></a>
+                 <a class="nav-link" href="Login.html" target="_blank"><strong>Join</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                 <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+
+              </div>
+          </div>
+      </div>
+  </nav>
+
+
+
+<div style="background-color:#f1d1d1;" class="image-gallery">
+  <div >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img id="picOne" class="ig-hover"src="E:\SEM VII\AJL\AJL Project\images\IMG_20200919_134201.jpg" alt="" width="500px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img id="picTwo" class="ig-hover" src="E:\SEM VII\AJL\AJL Project\images\IMG_20200919_182116.jpg" alt="" width="500px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img id="picThree" class="ig-hover" src="E:\SEM VII\AJL\AJL Project\images\IMG_20200919_182332.jpg" alt="" width="550px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  </div>
+  <br>
+  <br>
+  <div >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img id="picFour" class="ig-hover" src="E:\SEM VII\AJL\AJL Project\images\IMG_20200919_182441.jpg" alt="" width="500px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img id="picFive" class="ig-hover" src="E:\SEM VII\AJL\AJL Project\images\lonch.jpg" alt="" width="500px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img  id="picSix" class="ig-hover" src="E:\SEM VII\AJL\AJL Project\images\IMG_20201003_181622.jpg" alt="" width="500px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+  </div><br><br><br><br>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+
+<footer class="footer are footer-light">
+  <div class="footer" id="footer">
+    <div class="container" style="padding-top:50px; padding-bottom:50px;">
+      <div class="row">
+        <div class="col-sm-4">
+          <h1  style="color:black;">Recipes Star</h1>
+
+        </div>
+        <div class="col-sm-4">
+          <h2  style="color:black;">Quick Links</h2>
+          <br>
+
+              <a style="color:black;font-size:20px;" href="#"><strong>Home</strong></a><br>
+              <a style="color:black;font-size:20px;" href="Gallery.html"><strong>Gallery</strong></a><br>
+              <a style="color:black;font-size:20px;" href="About.html"><strong>About Us</strong></a><br>
+              <a style="color:black;font-size:20px;" href="#"><strong>Popular Recipes</strong></a>
+
+
+        </div>
+
+        <div class="col-sm-4">
+          <h2  style="color:black;">Contact Us</h2><br>
+          <a href="#">  <img src="E:\SEM VII\AJL\AJL Project\images\facebook-logo.png" alt="facebook" class="image-responsive-foot"></a>&nbsp;&nbsp;
+
+          <a href="#"> <img src="E:\SEM VII\AJL\AJL Project\images\instagram.png" alt="Instagram" class="image-responsive-foot" /></a>&nbsp;&nbsp;<br><br>
+
+          <a href="#"> <img  src="E:\SEM VII\AJL\AJL Project\images\youtube.png" alt="Youtube" class="image-responsive-foot"/></a>&nbsp;&nbsp;
+
+          <a href="#"> <img  src="E:\SEM VII\AJL\AJL Project\images\email.png" alt="Email" class="image-responsive-foot"/></a>&nbsp;&nbsp;
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <center>
+    <div class="mini-footer" id="flip">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-text">
+              <p>Copyrights © 2020 All Rights Reserved by
+                <a style="color:black;" href="#">Recipes Star</a>
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="panel">Copyright refers to the legal right of the owner of intellectual property.<br>
+    The original creators of products and anyone they give authorization to are the only ones with the exclusive right to reproduce the work.</div>
+  </center>
+
+</footer>
